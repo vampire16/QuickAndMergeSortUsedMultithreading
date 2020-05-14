@@ -4,11 +4,11 @@ import java.util.Arrays;
 
 public class MergeSort implements Runnable {
     public void merge(int[] array, int leftIndex, int middleIndex, int rightIndex) {
-        //     VARIABLES
+        //    VARIABLES
         int leftSize = middleIndex - leftIndex + 1;
         int rightSize = rightIndex - middleIndex;
 
-        //     ARRAYS
+        //    ARRAYS
         int[] left = new int[leftSize];
         int[] right = new int[rightSize];
 

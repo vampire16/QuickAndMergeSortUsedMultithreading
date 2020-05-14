@@ -23,7 +23,7 @@ public class QuickSort implements Runnable {
         return i + 1;
     }
 
-    //    SORT METHOD
+    //   SORT METHOD
     public void sort(int[] array, int lowIndex, int highIndex) {
         if (lowIndex < highIndex) {
             int partitionIndex = partition(array, lowIndex, highIndex);

@@ -8,9 +8,11 @@ public class SortController {
         //   MERGE SORT RUNNABLE OBJECT
         MergeSort merge = new MergeSort();
         Thread mergeSort = new Thread(merge);
+
         //   QUICK SORT RUNNABLE OBJECT
         QuickSort quick = new QuickSort();
         Thread quickSort = new Thread(quick);
+
         mergeSort.start();
         quickSort.start();
     }
